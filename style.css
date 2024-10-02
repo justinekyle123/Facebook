@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.intro{
+    margin-top: 15%;
+    margin-left: 12%;
+    display: flex;
+}
+#facebook{
+    font-size: 55px;
+    color: rgb(29, 112, 221);
+    display: inline-block;
+}
+.intro p{
+    font-size: 30px;
+    margin-top: 1%;
+    display: inline-block;
+    position: absolute;
+    margin-top: 5%;
+}
+ form{
+    width: 350px;
+    height: 400px;
+    background: white;
+    box-shadow: 0 0 3px black;
+    margin-left: 55%;
+    position: absolute;
+    top: 160;
+    border-radius: 10px;
+ }
+ .inputs{
+    width: 80%;
+    height: 14%;
+    margin: auto;
+    display: block;
+    margin-top: 3%;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    outline-color: blue;
+    border: none;
+    box-shadow: 0 0 2px black inset;
+
+ }
+ .puts{
+    margin-top: 12%;
+    text-align: center;
+ }
+ #sub{
+    padding: 10px 30px;
+    margin-top: 6%;
+    border: none;
+    font-size: 20px;
+    color: white;
+    background: rgb(11, 83, 240);
+    cursor: pointer;
+ }
+ a{
+    text-decoration: none;
+    position: relative;
+    top: 20;
+    color: rgb(39, 139, 231);
+ }
+ #create{
+color: white;
+margin-top: 15%;
+width: 50%;
+background: rgb(121, 190, 17);
+cursor: pointer;
+ }
